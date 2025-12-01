@@ -2,7 +2,7 @@
 
 Aplicativo mobile desenvolvido em **React Native + Expo** para listar criptomoedas em tempo real, exibir detalhes individuais e permitir atualização dinâmica dos dados do mercado.
 
-Este projeto faz parte de um desafio técnico cujo objetivo é consumir uma **API pública de criptomoedas**, mostrar listagens, preços, variações e permitir navegação entre telas.
+Este projeto tem o objetivo de consumir uma **API pública de criptomoedas**, mostrar listagens, preços, variações e permitir navegação entre telas.
 
 ---
 
@@ -61,54 +61,30 @@ CryptoTracker/
 
 ```bash
 git clone [https://github.com/seu-usuario/CryptoTracker.git](https://github.com/seu-usuario/CryptoTracker.git)
-cd CryptoTracker 
+cd CryptoTracker
 ```
-
 2️⃣ **Instale as dependências**
+
+```bash
 npm install
 # ou
 yarn
+```
+3️⃣ **Execute o projeto**
 
-3️⃣ Execute o projeto
+```bash
 npx expo start
+```
+## 🌐 API Utilizada
 
-🌐 API Utilizada
-A API usada para buscar os dados de mercado é a CoinGecko API:
+A API usada para buscar os dados de mercado é a **CoinGecko API**:
 
 https://api.coingecko.com/api/v3/coins/markets
 
-Parâmetros utilizados:
-
-vs_currency
-
-order
-
-per_page
-
-page
-
-sparkline
-
-price_change_percentage
-
-🎨 Design
-Paleta de cores simples, limpa e moderna:
-
-Fundo escuro
-
-Cards claros
-
-Destaque visual para variação de preço (verde / vermelho)
-
-🧠 Conceitos Trabalhados
-Custom Hooks (useFetchCoins)
-
-Componentização inteligente (CoinItem)
-
-Navegação entre telas (React Navigation)
-
-Consumo de API externa
-
-Tratamento de erros e estado de carregamento
-
-Arquitetura escalável para apps reais
+### Parâmetros utilizados:
+- `vs_currency`
+- `order`
+- `per_page`
+- `page`
+- `sparkline`
+- `price_change_percentage`
